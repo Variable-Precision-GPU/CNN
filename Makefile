@@ -1,7 +1,13 @@
-all:
-	nvcc -lcuda -lcublas *.cu -o CNN  -arch=compute_20 -Wno-deprecated-gpu-targets
+CUDA_PATH ?= /usr/local/cuda
+SRC = *.cu
 
-run:
-	./CNN
+all::cnn_cuda cnn_gpgpu
+
+cnn_cuda: $(SRC)
+	nvcc -o $@ $^ -lcuda -lcublas -gencode arch=compute_60,code=compute_60
+
+cnn_gpgpu: $(SRC)
+	nvcc -o $@ $^ -L$(CUDA_PATH)/lib64 -lcudart -lcublas_static -lculibos -gencode arch=compute_60,code=compute_60
+
 clean:
-	rm CNN
+	rm cnn_cuda cnn_gpgpu
