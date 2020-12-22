@@ -43,6 +43,47 @@ Layer::Layer(int M, int N, int O)
 	cudaMemcpy(weight, h_weight, sizeof(float) * M * N, cudaMemcpyHostToDevice);
 }
 
+// Constructor (using weights from file)
+Layer::Layer(int M, int N, int O, FILE *weights_file)
+{
+	this->M = M;
+	this->N = N;
+	this->O = O;
+
+	float h_bias[N];
+	float h_weight[N][M];
+
+	output = NULL;
+	preact = NULL;
+	bias = NULL;
+	weight = NULL;
+
+	for (int i = 0; i < N; ++i)
+	{
+		fscanf(weights_file, "%f", &h_bias[i]);
+
+		for (int j = 0; j < M; ++j)
+		{
+			fscanf(weights_file, "%f", &h_weight[i][j]);
+		}
+	}
+
+	cudaMalloc(&output, sizeof(float) * O);
+	cudaMalloc(&preact, sizeof(float) * O);
+
+	cudaMalloc(&bias, sizeof(float) * N);
+
+	cudaMalloc(&weight, sizeof(float) * M * N);
+
+	cudaMalloc(&d_output, sizeof(float) * O);
+	cudaMalloc(&d_preact, sizeof(float) * O);
+	cudaMalloc(&d_weight, sizeof(float) * M * N);
+
+	cudaMemcpy(bias, h_bias, sizeof(float) * N, cudaMemcpyHostToDevice);
+
+	cudaMemcpy(weight, h_weight, sizeof(float) * M * N, cudaMemcpyHostToDevice);
+}
+
 // Destructor
 Layer::~Layer()
 {
@@ -76,6 +117,25 @@ void Layer::bp_clear()
 	cudaMemset(d_output, 0x00, sizeof(float) * O);
 	cudaMemset(d_preact, 0x00, sizeof(float) * O);
 	cudaMemset(d_weight, 0x00, sizeof(float) * M * N);
+}
+
+void Layer::save(std::ofstream &weights_file)
+{
+	float h_bias[N];
+	float h_weight[N][M];
+
+	cudaMemcpy(h_bias, bias, sizeof(float) * N, cudaMemcpyDeviceToHost);
+	cudaMemcpy(h_weight, weight, sizeof(float) * M * N, cudaMemcpyDeviceToHost);
+
+	for (int i = 0; i < N; ++i)
+	{
+		weights_file << std::fixed << h_bias[i] << "\n";
+
+		for (int j = 0; j < M; ++j)
+		{
+			weights_file << std::fixed << h_weight[i][j] << "\n";
+		}
+	}
 }
 
 __device__ float step_function(float v)
