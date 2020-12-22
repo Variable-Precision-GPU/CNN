@@ -34,11 +34,13 @@ int main(int argc, const char **argv)
 {
 	srand(time(NULL));
 
-	CUresult err = cuInit(0);
-	if (err != CUDA_SUCCESS) {
-		fprintf(stderr, "CUDA initialisation failed with error code - %d\n", err);
-		return 1;
-	}
+	// [afterdusk] remove driver API initialization (redundant?)
+	// CUresult err = cuInit(0);
+	// if (err != CUDA_SUCCESS)
+	// {
+	// 	fprintf(stderr, "CUDA initialisation failed with error code - %d\n", err);
+	// 	return 1;
+	// }
 
 	loaddata();
 	learn();
