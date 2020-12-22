@@ -17,7 +17,7 @@ static Layer *l_c1;
 static Layer *l_s1;
 static Layer *l_f;
 
-static void learn(int epochs);
+static void learn(int start_epoch, int end_epoch);
 static unsigned int classify(double data[28][28]);
 static void test();
 static double forward_pass(double data[28][28]);
@@ -75,14 +75,20 @@ int main(int argc, const char **argv)
 		assert(argc == 4 && "Please provide the number of epochs and weights file");
 		loaddata();
 		init_layers();
-		learn(atoi(argv[2]));
+		learn(1, atoi(argv[2]));
 		save_weights(argv[3]);
 		destroy_layers();
 	}
 	else if (strcmp(argv[1], "-train-increment") == 0)
 	{
-		// TODO: Implement
+		assert(argc == 6 && "Please provide the start epoch, end epoch, input weights file and output weights file");
 		loaddata();
+		init_layers(argv[4]);
+		int start_epoch = atoi(argv[2]);
+		int end_epoch = atoi(argv[3]);
+		learn(start_epoch, end_epoch);
+		save_weights(argv[5]);
+		destroy_layers();
 	}
 	else if (strcmp(argv[1], "-test") == 0)
 	{
@@ -96,7 +102,7 @@ int main(int argc, const char **argv)
 	{
 		loaddata();
 		init_layers();
-		learn(50);
+		learn(1, 50);
 		test();
 		destroy_layers();
 	}
@@ -200,7 +206,7 @@ static void unfold_input(double input[28][28], double unfolded[24 * 24][5 * 5])
 		}
 }
 
-static void learn(int epochs)
+static void learn(int start_epoch, int end_epoch)
 {
 	static cublasHandle_t blas;
 	cublasCreate(&blas);
@@ -211,7 +217,7 @@ static void learn(int epochs)
 
 	fprintf(stdout, "Learning\n");
 
-	for (int iter = 1; iter <= epochs; iter++)
+	for (int iter = start_epoch; iter <= end_epoch; iter++)
 	{
 		err = 0.0f;
 
