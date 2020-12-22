@@ -11,8 +11,9 @@
 const static float dt = 1.0E-01f;
 const static float threshold = 1.0E-02f;
 
-class Layer {
-	public:
+class Layer
+{
+public:
 	int M, N, O;
 
 	float *output;
@@ -33,7 +34,6 @@ class Layer {
 	void clear();
 	void bp_clear();
 };
-
 
 // Utility CUDA kernel functions
 __device__ float step_function(float v);
