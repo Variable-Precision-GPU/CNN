@@ -1,0 +1,19 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_60
+.address_size 64
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVSt13basic_filebufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTTSt14basic_ofstreamIcSt11char_traitsIcEE[8];
+
+

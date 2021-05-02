@@ -1,0 +1,77 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z11fp_preact_fPA6_A6_fPfPA6_S0_' for 'sm_60'
+ptxas info    : Function properties for _Z11fp_preact_fPA6_A6_fPfPA6_S0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12bp_output_c1PA24_A24_fPA4_A4_fPA6_A6_f' for 'sm_60'
+ptxas info    : Function properties for _Z12bp_output_c1PA24_A24_fPA4_A4_fPA6_A6_f
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12fp_preact_c1PA28_fPA24_A24_fPA5_A5_f' for 'sm_60'
+ptxas info    : Function properties for _Z12fp_preact_c1PA28_fPA24_A24_fPA5_A5_f
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12bp_output_s1PA6_A6_fPA6_S0_Pf' for 'sm_60'
+ptxas info    : Function properties for _Z12bp_output_s1PA6_A6_fPA6_S0_Pf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12fp_preact_s1PA24_A24_fPA6_A6_fPA4_A4_f' for 'sm_60'
+ptxas info    : Function properties for _Z12fp_preact_s1PA24_A24_fPA6_A6_fPA4_A4_f
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12bp_weight_s1PA4_A4_fPA6_A6_fPA24_A24_f' for 'sm_60'
+ptxas info    : Function properties for _Z12bp_weight_s1PA4_A4_fPA6_A6_fPA24_A24_f
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z11bp_weight_fPA6_A6_A6_fPfPS0_' for 'sm_60'
+ptxas info    : Function properties for _Z11bp_weight_fPA6_A6_A6_fPfPS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12bp_weight_c1PA5_A5_fPA24_A24_fPA28_f' for 'sm_60'
+ptxas info    : Function properties for _Z12bp_weight_c1PA5_A5_fPA24_A24_fPA28_f
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 344 bytes cmem[0], 52 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z9makeErrorPfS_ji' for 'sm_60'
+ptxas info    : Function properties for _Z9makeErrorPfS_ji
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 344 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10fp_bias_c1PA24_A24_fPf' for 'sm_60'
+ptxas info    : Function properties for _Z10fp_bias_c1PA24_A24_fPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 336 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z12bp_preact_s1PA6_A6_fS1_S1_' for 'sm_60'
+ptxas info    : Function properties for _Z12bp_preact_s1PA6_A6_fS1_S1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 344 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z9fp_bias_fPfS_' for 'sm_60'
+ptxas info    : Function properties for _Z9fp_bias_fPfS_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 336 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z12bp_preact_c1PA24_A24_fS1_S1_' for 'sm_60'
+ptxas info    : Function properties for _Z12bp_preact_c1PA24_A24_fS1_S1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 344 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z19apply_step_functionPfS_i' for 'sm_60'
+ptxas info    : Function properties for _Z19apply_step_functionPfS_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 340 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10fp_bias_s1PA6_A6_fPf' for 'sm_60'
+ptxas info    : Function properties for _Z10fp_bias_s1PA6_A6_fPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 336 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10bp_bias_s1PfPA6_A6_f' for 'sm_60'
+ptxas info    : Function properties for _Z10bp_bias_s1PfPA6_A6_f
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 336 bytes cmem[0], 52 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z9bp_bias_fPfS_' for 'sm_60'
+ptxas info    : Function properties for _Z9bp_bias_fPfS_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 336 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10bp_bias_c1PfPA24_A24_f' for 'sm_60'
+ptxas info    : Function properties for _Z10bp_bias_c1PfPA24_A24_f
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 336 bytes cmem[0], 52 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10apply_gradPfS_i' for 'sm_60'
+ptxas info    : Function properties for _Z10apply_gradPfS_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 340 bytes cmem[0], 12 bytes cmem[2]

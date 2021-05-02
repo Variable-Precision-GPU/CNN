@@ -1,0 +1,201 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z11nrm2_kernelIfffLi0ELi0ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelIfffLi0ELi0ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 512 bytes smem, 352 bytes cmem[0], 28 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI6__halfS0_fLi0ELi1ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI6__halfS0_fLi0ELi1ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 512 bytes smem, 352 bytes cmem[0], 28 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI6float2ffLi0ELi0ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI6float2ffLi0ELi0ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 512 bytes smem, 352 bytes cmem[0], 28 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11nrm2_kernelIdddLi0ELi0ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelIdddLi0ELi0ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 1024 bytes smem, 352 bytes cmem[0], 80 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI6__halfffLi0ELi1ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI6__halfffLi0ELi1ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 512 bytes smem, 352 bytes cmem[0], 28 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI7double2ddLi0ELi0ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI7double2ddLi0ELi0ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 1024 bytes smem, 352 bytes cmem[0], 80 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11nrm2_kernelIfffLi0ELi0ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelIfffLi0ELi0ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 512 bytes smem, 356 bytes cmem[0], 28 bytes cmem[2], 1 textures
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI6__halfS0_fLi0ELi1ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI6__halfS0_fLi0ELi1ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 512 bytes smem, 356 bytes cmem[0], 28 bytes cmem[2], 1 textures
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI6float2ffLi0ELi0ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI6float2ffLi0ELi0ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 512 bytes smem, 356 bytes cmem[0], 28 bytes cmem[2], 1 textures
+ptxas info    : Compiling entry function '_Z11nrm2_kernelIdddLi0ELi0ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelIdddLi0ELi0ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 1024 bytes smem, 356 bytes cmem[0], 80 bytes cmem[2], 1 textures
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI6__halfffLi0ELi1ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI6__halfffLi0ELi1ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 512 bytes smem, 356 bytes cmem[0], 28 bytes cmem[2], 1 textures
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI7double2ddLi0ELi0ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI7double2ddLi0ELi0ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 1024 bytes smem, 356 bytes cmem[0], 80 bytes cmem[2], 1 textures
+ptxas info    : Compiling entry function '_Z11nrm2_kernelIfffLi0ELi1ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelIfffLi0ELi1ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 512 bytes smem, 356 bytes cmem[0], 28 bytes cmem[2], 1 textures
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI6__halfS0_fLi0ELi0ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI6__halfS0_fLi0ELi0ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 512 bytes smem, 352 bytes cmem[0], 28 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI6float2ffLi0ELi1ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI6float2ffLi0ELi1ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 512 bytes smem, 356 bytes cmem[0], 28 bytes cmem[2], 1 textures
+ptxas info    : Compiling entry function '_Z11nrm2_kernelIdddLi0ELi1ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelIdddLi0ELi1ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 1024 bytes smem, 356 bytes cmem[0], 80 bytes cmem[2], 1 textures
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI6__halfffLi1ELi1ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI6__halfffLi1ELi1ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 512 bytes smem, 352 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI7double2ddLi0ELi1ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI7double2ddLi0ELi1ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 1024 bytes smem, 356 bytes cmem[0], 80 bytes cmem[2], 1 textures
+ptxas info    : Compiling entry function '_Z11nrm2_kernelIfffLi0ELi1ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelIfffLi0ELi1ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 512 bytes smem, 352 bytes cmem[0], 28 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI6__halfffLi1ELi1ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI6__halfffLi1ELi1ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 512 bytes smem, 356 bytes cmem[0], 32 bytes cmem[2], 1 textures
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI6float2ffLi0ELi1ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI6float2ffLi0ELi1ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 512 bytes smem, 352 bytes cmem[0], 28 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11nrm2_kernelIf6__halffLi0ELi0ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelIf6__halffLi0ELi0ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 512 bytes smem, 352 bytes cmem[0], 28 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI7double2ddLi0ELi1ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI7double2ddLi0ELi1ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 1024 bytes smem, 352 bytes cmem[0], 80 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI6__halfS0_fLi0ELi0ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI6__halfS0_fLi0ELi0ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 512 bytes smem, 356 bytes cmem[0], 28 bytes cmem[2], 1 textures
+ptxas info    : Compiling entry function '_Z11nrm2_kernelIdddLi0ELi1ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelIdddLi0ELi1ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 29 registers, 1024 bytes smem, 352 bytes cmem[0], 80 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11nrm2_kernelIfffLi1ELi0ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelIfffLi1ELi0ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 512 bytes smem, 352 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI6__halfS0_fLi1ELi1ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI6__halfS0_fLi1ELi1ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 512 bytes smem, 352 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI6float2ffLi1ELi0ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI6float2ffLi1ELi0ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 512 bytes smem, 352 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11nrm2_kernelIdddLi1ELi0ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelIdddLi1ELi0ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 1024 bytes smem, 352 bytes cmem[0], 76 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI6__halfffLi0ELi0ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI6__halfffLi0ELi0ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 512 bytes smem, 352 bytes cmem[0], 28 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI7double2ddLi1ELi0ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI7double2ddLi1ELi0ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 1024 bytes smem, 352 bytes cmem[0], 76 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11nrm2_kernelIfffLi1ELi0ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelIfffLi1ELi0ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 512 bytes smem, 356 bytes cmem[0], 32 bytes cmem[2], 1 textures
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI6__halfS0_fLi1ELi1ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI6__halfS0_fLi1ELi1ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 512 bytes smem, 356 bytes cmem[0], 32 bytes cmem[2], 1 textures
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI6float2ffLi1ELi0ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI6float2ffLi1ELi0ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 512 bytes smem, 356 bytes cmem[0], 32 bytes cmem[2], 1 textures
+ptxas info    : Compiling entry function '_Z11nrm2_kernelIdddLi1ELi0ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelIdddLi1ELi0ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 1024 bytes smem, 356 bytes cmem[0], 76 bytes cmem[2], 1 textures
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI6__halfffLi0ELi0ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI6__halfffLi0ELi0ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 512 bytes smem, 356 bytes cmem[0], 28 bytes cmem[2], 1 textures
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI7double2ddLi1ELi0ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI7double2ddLi1ELi0ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 1024 bytes smem, 356 bytes cmem[0], 76 bytes cmem[2], 1 textures
+ptxas info    : Compiling entry function '_Z11nrm2_kernelIfffLi1ELi1ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelIfffLi1ELi1ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 512 bytes smem, 356 bytes cmem[0], 32 bytes cmem[2], 1 textures
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI6__halfS0_fLi1ELi0ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI6__halfS0_fLi1ELi0ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 512 bytes smem, 352 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI6float2ffLi1ELi1ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI6float2ffLi1ELi1ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 512 bytes smem, 356 bytes cmem[0], 32 bytes cmem[2], 1 textures
+ptxas info    : Compiling entry function '_Z11nrm2_kernelIdddLi1ELi1ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelIdddLi1ELi1ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 1024 bytes smem, 356 bytes cmem[0], 76 bytes cmem[2], 1 textures
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI6__halfffLi1ELi0ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI6__halfffLi1ELi0ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 512 bytes smem, 352 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI7double2ddLi1ELi1ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI7double2ddLi1ELi1ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 1024 bytes smem, 356 bytes cmem[0], 76 bytes cmem[2], 1 textures
+ptxas info    : Compiling entry function '_Z11nrm2_kernelIfffLi1ELi1ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelIfffLi1ELi1ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 512 bytes smem, 352 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI6__halfffLi1ELi0ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI6__halfffLi1ELi0ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 512 bytes smem, 356 bytes cmem[0], 32 bytes cmem[2], 1 textures
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI6float2ffLi1ELi1ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI6float2ffLi1ELi1ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 512 bytes smem, 352 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11nrm2_kernelIf6__halffLi1ELi0ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelIf6__halffLi1ELi0ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 512 bytes smem, 352 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI7double2ddLi1ELi1ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI7double2ddLi1ELi1ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 1024 bytes smem, 352 bytes cmem[0], 76 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11nrm2_kernelI6__halfS0_fLi1ELi0ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelI6__halfS0_fLi1ELi0ELi128ELi1EEv16cublasNrm2ParamsIT_T1_E
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 512 bytes smem, 356 bytes cmem[0], 32 bytes cmem[2], 1 textures
+ptxas info    : Compiling entry function '_Z11nrm2_kernelIdddLi1ELi1ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z11nrm2_kernelIdddLi1ELi1ELi128ELi0EEv16cublasNrm2ParamsIT_T1_E
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 1024 bytes smem, 352 bytes cmem[0], 76 bytes cmem[2]
